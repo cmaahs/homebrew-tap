@@ -9,8 +9,8 @@ class UtilScripts < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.95/homebrew-admin-scripts.tar.gz"
-      sha256 "2c2531a34a83d54f0b7cc3636db96133c16f234b3a8122f4edcfd3b0233d9092"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.96/homebrew-admin-scripts.tar.gz"
+      sha256 "e85708c8c89680809b03c37dcedc338a605f381970f7a25e484031c18ecc64f2"
 
       def install
         bin.install "check-docker-tag"
