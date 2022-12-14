@@ -5,7 +5,7 @@ class UtilScripts < Formula
   desc "This is a collection of general utility scripts"
   homepage "https://github.com/cmaahs/homebrew-admin-scripts"
   url "https://github.com/cmaahs/homebrew-admin-scripts.git"
-  version "0.0.95"
+  version "0.0.96"
 
   on_macos do
     if Hardware::CPU.intel?
@@ -74,6 +74,8 @@ class UtilScripts < Formula
         bin.install "show-riverlevels"
         bin.install "vim_multi_commands.sh"
         bin.install "vault-token-to-clipboard"
+        bin.install "abandon-file"
+        bin.install "show-futurama-environments"
       end
     end
     if Hardware::CPU.arm?
