@@ -144,6 +144,8 @@ class UtilScripts < Formula
         bin.install "show-riverlevels"
         bin.install "vim_multi_commands.sh"
         bin.install "vault-token-to-clipboard"
+        bin.install "abandon-file"
+        bin.install "show-futurama-environments"
       end
     end
   end
@@ -214,6 +216,8 @@ class UtilScripts < Formula
         bin.install "river-prompt"
         bin.install "show-riverlevels"
         bin.install "vim_multi_commands.sh"
+        bin.install "abandon-file"
+        bin.install "show-futurama-environments"
       end
     end
     if Hardware::CPU.intel?
@@ -281,6 +285,8 @@ class UtilScripts < Formula
         bin.install "river-prompt"
         bin.install "show-riverlevels"
         bin.install "vim_multi_commands.sh"
+        bin.install "abandon-file"
+        bin.install "show-futurama-environments"
       end
     end
   end
