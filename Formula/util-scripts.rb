@@ -5,12 +5,12 @@ class UtilScripts < Formula
   desc "This is a collection of general utility scripts"
   homepage "https://github.com/cmaahs/homebrew-admin-scripts"
   url "https://github.com/cmaahs/homebrew-admin-scripts.git"
-  version "0.0.96"
+  version "0.0.97"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.96/homebrew-admin-scripts.tar.gz"
-      sha256 "e85708c8c89680809b03c37dcedc338a605f381970f7a25e484031c18ecc64f2"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.97/homebrew-admin-scripts.tar.gz"
+      sha256 "b343a1b44404af3969ffea46538e4fbb42e55b87de84fa9068c4718e9ad6b8d8"
 
       def install
         bin.install "check-docker-tag"
@@ -76,11 +76,12 @@ class UtilScripts < Formula
         bin.install "vault-token-to-clipboard"
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
+        bin.install "gitlab_functions.sh"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.95/homebrew-admin-scripts.tar.gz"
-      sha256 "2c2531a34a83d54f0b7cc3636db96133c16f234b3a8122f4edcfd3b0233d9092"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.97/homebrew-admin-scripts.tar.gz"
+      sha256 "b343a1b44404af3969ffea46538e4fbb42e55b87de84fa9068c4718e9ad6b8d8"
 
       def install
         bin.install "check-docker-tag"
@@ -146,14 +147,15 @@ class UtilScripts < Formula
         bin.install "vault-token-to-clipboard"
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
+        bin.install "gitlab_functions.sh"
       end
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.95/homebrew-admin-scripts.tar.gz"
-      sha256 "2c2531a34a83d54f0b7cc3636db96133c16f234b3a8122f4edcfd3b0233d9092"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.97/homebrew-admin-scripts.tar.gz"
+      sha256 "b343a1b44404af3969ffea46538e4fbb42e55b87de84fa9068c4718e9ad6b8d8"
 
       def install
         bin.install "check-docker-tag"
@@ -218,11 +220,12 @@ class UtilScripts < Formula
         bin.install "vim_multi_commands.sh"
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
+        bin.install "gitlab_functions.sh"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.95/homebrew-admin-scripts.tar.gz"
-      sha256 "2c2531a34a83d54f0b7cc3636db96133c16f234b3a8122f4edcfd3b0233d9092"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.97/homebrew-admin-scripts.tar.gz"
+      sha256 "b343a1b44404af3969ffea46538e4fbb42e55b87de84fa9068c4718e9ad6b8d8"
 
       def install
         bin.install "check-docker-tag"
@@ -287,6 +290,7 @@ class UtilScripts < Formula
         bin.install "vim_multi_commands.sh"
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
+        bin.install "gitlab_functions.sh"
       end
     end
   end
@@ -336,6 +340,12 @@ class UtilScripts < Formula
         - cdwt (prompts for a worktree to change to)
         - cdwtp (changes to the parent git directory)
         - rmwt (prompts for a worktree to remove, and prompt to remove empty parent)
+      gitlab_functions.sh contains the following functions:
+        - gitlab-get-variable <var name> <project/group path> (returns variable value)
+        - gitlab-get-group-variable <var name> <group path> (returns variable value)
+        - gitlab-get-project-variable <var name> <project path> (returns variable value)
+        - gitlab-show-cicd-variables <project/group path> (returns a list of variable names)
+        - gitlab-export-cicd-variables <project/group path> (exports ALL variables)
   EOS
   end
 end
