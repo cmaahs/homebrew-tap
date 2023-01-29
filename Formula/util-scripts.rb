@@ -9,7 +9,7 @@ class UtilScripts < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.98/homebrew-admin-scripts.tar.gz"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.99/homebrew-admin-scripts.tar.gz"
       sha256 "54fec99f70e9b25be5e3baefa5b07c6ba417292799c264a185276e0edad3f1c0"
 
       def install
@@ -80,7 +80,7 @@ class UtilScripts < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.98/homebrew-admin-scripts.tar.gz"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.99/homebrew-admin-scripts.tar.gz"
       sha256 "54fec99f70e9b25be5e3baefa5b07c6ba417292799c264a185276e0edad3f1c0"
 
       def install
@@ -154,7 +154,7 @@ class UtilScripts < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.98/homebrew-admin-scripts.tar.gz"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.99/homebrew-admin-scripts.tar.gz"
       sha256 "54fec99f70e9b25be5e3baefa5b07c6ba417292799c264a185276e0edad3f1c0"
 
       def install
@@ -224,7 +224,7 @@ class UtilScripts < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.98/homebrew-admin-scripts.tar.gz"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.99/homebrew-admin-scripts.tar.gz"
       sha256 "54fec99f70e9b25be5e3baefa5b07c6ba417292799c264a185276e0edad3f1c0"
 
       def install
