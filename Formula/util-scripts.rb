@@ -5,12 +5,12 @@ class UtilScripts < Formula
   desc "This is a collection of general utility scripts"
   homepage "https://github.com/cmaahs/homebrew-admin-scripts"
   url "https://github.com/cmaahs/homebrew-admin-scripts.git"
-  version "0.0.104"
+  version "0.0.105"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.104/homebrew-admin-scripts.tar.gz"
-      sha256 "54ea63473b078ea54d1e46351233f620e76e5ba03357a1c52a8bf67976857ced"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.105/homebrew-admin-scripts.tar.gz"
+      sha256 "ea2c336569c021e4a01bcc8e79d61c9ea55d87ec58371fbba1466dc50698a102"
 
       def install
         bin.install "check-docker-tag"
@@ -77,11 +77,12 @@ class UtilScripts < Formula
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
         bin.install "gitlab_functions.sh"
+        bin.install "wezterm-shell-interactions.sh"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.104/homebrew-admin-scripts.tar.gz"
-      sha256 "54ea63473b078ea54d1e46351233f620e76e5ba03357a1c52a8bf67976857ced"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.105/homebrew-admin-scripts.tar.gz"
+      sha256 "ea2c336569c021e4a01bcc8e79d61c9ea55d87ec58371fbba1466dc50698a102"
 
       def install
         bin.install "check-docker-tag"
@@ -148,14 +149,15 @@ class UtilScripts < Formula
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
         bin.install "gitlab_functions.sh"
+        bin.install "wezterm-shell-interactions.sh"
       end
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.104/homebrew-admin-scripts.tar.gz"
-      sha256 "54ea63473b078ea54d1e46351233f620e76e5ba03357a1c52a8bf67976857ced"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.105/homebrew-admin-scripts.tar.gz"
+      sha256 "ea2c336569c021e4a01bcc8e79d61c9ea55d87ec58371fbba1466dc50698a102"
 
       def install
         bin.install "check-docker-tag"
@@ -221,11 +223,12 @@ class UtilScripts < Formula
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
         bin.install "gitlab_functions.sh"
+        bin.install "wezterm-shell-interactions.sh"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.104/homebrew-admin-scripts.tar.gz"
-      sha256 "54ea63473b078ea54d1e46351233f620e76e5ba03357a1c52a8bf67976857ced"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.105/homebrew-admin-scripts.tar.gz"
+      sha256 "ea2c336569c021e4a01bcc8e79d61c9ea55d87ec58371fbba1466dc50698a102"
 
       def install
         bin.install "check-docker-tag"
@@ -291,6 +294,7 @@ class UtilScripts < Formula
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
         bin.install "gitlab_functions.sh"
+        bin.install "wezterm-shell-interactions.sh"
       end
     end
   end
