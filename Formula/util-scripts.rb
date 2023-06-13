@@ -5,12 +5,12 @@ class UtilScripts < Formula
   desc "This is a collection of general utility scripts"
   homepage "https://github.com/cmaahs/homebrew-admin-scripts"
   url "https://github.com/cmaahs/homebrew-admin-scripts.git"
-  version "0.0.108"
+  version "0.0.109"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.108/homebrew-admin-scripts.tar.gz"
-      sha256 "c1bf19956703d958053018b0124e70da9dd49a60f56710cd6afd6ac66bdbbb49"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.109/homebrew-admin-scripts.tar.gz"
+      sha256 "ffd9adb74600ea8753f7b0ec3e6263004e53e5fbb0a07737ad061622bef5d013"
 
       def install
         bin.install "check-docker-tag"
@@ -78,15 +78,15 @@ class UtilScripts < Formula
         bin.install "show-futurama-environments"
         bin.install "gitlab_functions.sh"
         bin.install "wezterm-shell-interactions.sh"
-        bin.install "bin/get-helmversion"
-        bin.install "bin/get-ktroubleversion"
-        bin.install "bin/get-kubectlversion"
-        bin.install "bin/get-teleportversion"
+        bin.install "get-helmversion"
+        bin.install "get-ktroubleversion"
+        bin.install "get-kubectlversion"
+        bin.install "get-teleportversion"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.108/homebrew-admin-scripts.tar.gz"
-      sha256 "c1bf19956703d958053018b0124e70da9dd49a60f56710cd6afd6ac66bdbbb49"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.109/homebrew-admin-scripts.tar.gz"
+      sha256 "ffd9adb74600ea8753f7b0ec3e6263004e53e5fbb0a07737ad061622bef5d013"
 
       def install
         bin.install "check-docker-tag"
@@ -154,18 +154,18 @@ class UtilScripts < Formula
         bin.install "show-futurama-environments"
         bin.install "gitlab_functions.sh"
         bin.install "wezterm-shell-interactions.sh"
-        bin.install "bin/get-helmversion"
-        bin.install "bin/get-ktroubleversion"
-        bin.install "bin/get-kubectlversion"
-        bin.install "bin/get-teleportversion"
+        bin.install "get-helmversion"
+        bin.install "get-ktroubleversion"
+        bin.install "get-kubectlversion"
+        bin.install "get-teleportversion"
       end
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.108/homebrew-admin-scripts.tar.gz"
-      sha256 "c1bf19956703d958053018b0124e70da9dd49a60f56710cd6afd6ac66bdbbb49"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.109/homebrew-admin-scripts.tar.gz"
+      sha256 "ffd9adb74600ea8753f7b0ec3e6263004e53e5fbb0a07737ad061622bef5d013"
 
       def install
         bin.install "check-docker-tag"
@@ -232,15 +232,15 @@ class UtilScripts < Formula
         bin.install "show-futurama-environments"
         bin.install "gitlab_functions.sh"
         bin.install "wezterm-shell-interactions.sh"
-        bin.install "bin/get-helmversion"
-        bin.install "bin/get-ktroubleversion"
-        bin.install "bin/get-kubectlversion"
-        bin.install "bin/get-teleportversion"
+        bin.install "get-helmversion"
+        bin.install "get-ktroubleversion"
+        bin.install "get-kubectlversion"
+        bin.install "get-teleportversion"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.108/homebrew-admin-scripts.tar.gz"
-      sha256 "c1bf19956703d958053018b0124e70da9dd49a60f56710cd6afd6ac66bdbbb49"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.109/homebrew-admin-scripts.tar.gz"
+      sha256 "ffd9adb74600ea8753f7b0ec3e6263004e53e5fbb0a07737ad061622bef5d013"
 
       def install
         bin.install "check-docker-tag"
@@ -307,10 +307,10 @@ class UtilScripts < Formula
         bin.install "show-futurama-environments"
         bin.install "gitlab_functions.sh"
         bin.install "wezterm-shell-interactions.sh"
-        bin.install "bin/get-helmversion"
-        bin.install "bin/get-ktroubleversion"
-        bin.install "bin/get-kubectlversion"
-        bin.install "bin/get-teleportversion"
+        bin.install "get-helmversion"
+        bin.install "get-ktroubleversion"
+        bin.install "get-kubectlversion"
+        bin.install "get-teleportversion"
       end
     end
   end
