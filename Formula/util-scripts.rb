@@ -10,7 +10,7 @@ class UtilScripts < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.113/homebrew-admin-scripts.tar.gz"
-      sha256 "f51670b2255f988c28b707f7fe61b5f9e753c4218f26ceb0d29e7a7b02e38eb6"
+      sha256 "31d7679aaa3aedbe5f50a5f391e606bfb16d5a5d296b8d529dc3871b2a99f0d1"
 
       def install
         bin.install "check-docker-tag"
@@ -86,7 +86,7 @@ class UtilScripts < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.113/homebrew-admin-scripts.tar.gz"
-      sha256 "f51670b2255f988c28b707f7fe61b5f9e753c4218f26ceb0d29e7a7b02e38eb6"
+      sha256 "31d7679aaa3aedbe5f50a5f391e606bfb16d5a5d296b8d529dc3871b2a99f0d1"
 
       def install
         bin.install "check-docker-tag"
@@ -165,7 +165,7 @@ class UtilScripts < Formula
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.113/homebrew-admin-scripts.tar.gz"
-      sha256 "f51670b2255f988c28b707f7fe61b5f9e753c4218f26ceb0d29e7a7b02e38eb6"
+      sha256 "31d7679aaa3aedbe5f50a5f391e606bfb16d5a5d296b8d529dc3871b2a99f0d1"
 
       def install
         bin.install "check-docker-tag"
@@ -240,7 +240,7 @@ class UtilScripts < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.113/homebrew-admin-scripts.tar.gz"
-      sha256 "f51670b2255f988c28b707f7fe61b5f9e753c4218f26ceb0d29e7a7b02e38eb6"
+      sha256 "31d7679aaa3aedbe5f50a5f391e606bfb16d5a5d296b8d529dc3871b2a99f0d1"
 
       def install
         bin.install "check-docker-tag"
