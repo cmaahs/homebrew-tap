@@ -5,7 +5,7 @@ class UtilScripts < Formula
   desc "This is a collection of general utility scripts"
   homepage "https://github.com/cmaahs/homebrew-admin-scripts"
   url "https://github.com/cmaahs/homebrew-admin-scripts.git"
-  version "0.0.113"
+  version "0.0.114"
 
   on_macos do
     if Hardware::CPU.intel?
