@@ -76,7 +76,6 @@ class UtilScripts < Formula
         bin.install "vault-token-to-clipboard"
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
-        bin.install "gitlab_functions.sh"
         bin.install "wezterm-shell-interactions.sh"
         bin.install "get-helmversion"
         bin.install "get-ktroubleversion"
@@ -152,7 +151,6 @@ class UtilScripts < Formula
         bin.install "vault-token-to-clipboard"
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
-        bin.install "gitlab_functions.sh"
         bin.install "wezterm-shell-interactions.sh"
         bin.install "get-helmversion"
         bin.install "get-ktroubleversion"
@@ -230,7 +228,6 @@ class UtilScripts < Formula
         bin.install "vim_multi_commands.sh"
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
-        bin.install "gitlab_functions.sh"
         bin.install "wezterm-shell-interactions.sh"
         bin.install "get-helmversion"
         bin.install "get-ktroubleversion"
@@ -305,7 +302,6 @@ class UtilScripts < Formula
         bin.install "vim_multi_commands.sh"
         bin.install "abandon-file"
         bin.install "show-futurama-environments"
-        bin.install "gitlab_functions.sh"
         bin.install "wezterm-shell-interactions.sh"
         bin.install "get-helmversion"
         bin.install "get-ktroubleversion"
@@ -360,12 +356,6 @@ class UtilScripts < Formula
         - cdwt (prompts for a worktree to change to)
         - cdwtp (changes to the parent git directory)
         - rmwt (prompts for a worktree to remove, and prompt to remove empty parent)
-      gitlab_functions.sh contains the following functions:
-        - gitlab-get-variable <var name> <project/group path> (returns variable value)
-        - gitlab-get-group-variable <var name> <group path> (returns variable value)
-        - gitlab-get-project-variable <var name> <project path> (returns variable value)
-        - gitlab-show-cicd-variables <project/group path> (returns a list of variable names)
-        - gitlab-export-cicd-variables <project/group path> (exports ALL variables)
   EOS
   end
 end
