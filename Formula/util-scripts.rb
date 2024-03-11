@@ -5,12 +5,12 @@ class UtilScripts < Formula
   desc "This is a collection of general utility scripts"
   homepage "https://github.com/cmaahs/homebrew-admin-scripts"
   url "https://github.com/cmaahs/homebrew-admin-scripts.git"
-  version "0.0.114"
+  version "0.0.115"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.114/homebrew-admin-scripts.tar.gz"
-      sha256 "31d7679aaa3aedbe5f50a5f391e606bfb16d5a5d296b8d529dc3871b2a99f0d1"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.115/homebrew-admin-scripts.tar.gz"
+      sha256 "c93b41a6eda3db4a6ecc76dc4aa97733df0e3ab6557fa938aa9f8d20c9978f1c"
 
       def install
         bin.install "check-docker-tag"
@@ -50,7 +50,6 @@ class UtilScripts < Formula
         bin.install "prstat"
         bin.install "sqlshell_functions.sh"
         bin.install "vault_functions.sh"
-        bin.install "xkcd"
         bin.install "new-bash-script"
         bin.install "get-gke-versions"
         bin.install "get-jsonui"
@@ -68,7 +67,6 @@ class UtilScripts < Formula
         bin.install "git-fetch-status-pull"
         bin.install "gcp_functions.sh"
         bin.install "gcp-switch-account"
-        bin.install "decolorize"
         bin.install "get-riverlevels"
         bin.install "river-prompt"
         bin.install "show-riverlevels"
@@ -84,8 +82,8 @@ class UtilScripts < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.114/homebrew-admin-scripts.tar.gz"
-      sha256 "31d7679aaa3aedbe5f50a5f391e606bfb16d5a5d296b8d529dc3871b2a99f0d1"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.115/homebrew-admin-scripts.tar.gz"
+      sha256 "c93b41a6eda3db4a6ecc76dc4aa97733df0e3ab6557fa938aa9f8d20c9978f1c"
 
       def install
         bin.install "check-docker-tag"
@@ -125,7 +123,6 @@ class UtilScripts < Formula
         bin.install "prstat"
         bin.install "sqlshell_functions.sh"
         bin.install "vault_functions.sh"
-        bin.install "xkcd"
         bin.install "new-bash-script"
         bin.install "get-gke-versions"
         bin.install "get-jsonui"
@@ -143,7 +140,6 @@ class UtilScripts < Formula
         bin.install "git-fetch-status-pull"
         bin.install "gcp_functions.sh"
         bin.install "gcp-switch-account"
-        bin.install "decolorize"
         bin.install "get-riverlevels"
         bin.install "river-prompt"
         bin.install "show-riverlevels"
@@ -162,8 +158,8 @@ class UtilScripts < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.114/homebrew-admin-scripts.tar.gz"
-      sha256 "31d7679aaa3aedbe5f50a5f391e606bfb16d5a5d296b8d529dc3871b2a99f0d1"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.115/homebrew-admin-scripts.tar.gz"
+      sha256 "c93b41a6eda3db4a6ecc76dc4aa97733df0e3ab6557fa938aa9f8d20c9978f1c"
 
       def install
         bin.install "check-docker-tag"
@@ -203,7 +199,6 @@ class UtilScripts < Formula
         bin.install "prstat"
         bin.install "sqlshell_functions.sh"
         bin.install "vault_functions.sh"
-        bin.install "xkcd"
         bin.install "new-bash-script"
         bin.install "get-gke-versions"
         bin.install "get-jsonui"
@@ -221,7 +216,6 @@ class UtilScripts < Formula
         bin.install "git-fetch-status-pull"
         bin.install "gcp_functions.sh"
         bin.install "gcp-switch-account"
-        bin.install "decolorize"
         bin.install "get-riverlevels"
         bin.install "river-prompt"
         bin.install "show-riverlevels"
@@ -236,8 +230,8 @@ class UtilScripts < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.114/homebrew-admin-scripts.tar.gz"
-      sha256 "31d7679aaa3aedbe5f50a5f391e606bfb16d5a5d296b8d529dc3871b2a99f0d1"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.115/homebrew-admin-scripts.tar.gz"
+      sha256 "c93b41a6eda3db4a6ecc76dc4aa97733df0e3ab6557fa938aa9f8d20c9978f1c"
 
       def install
         bin.install "check-docker-tag"
@@ -277,7 +271,6 @@ class UtilScripts < Formula
         bin.install "prstat"
         bin.install "sqlshell_functions.sh"
         bin.install "vault_functions.sh"
-        bin.install "xkcd"
         bin.install "new-bash-script"
         bin.install "get-gke-versions"
         bin.install "get-jsonui"
@@ -295,7 +288,6 @@ class UtilScripts < Formula
         bin.install "git-fetch-status-pull"
         bin.install "gcp_functions.sh"
         bin.install "gcp-switch-account"
-        bin.install "decolorize"
         bin.install "get-riverlevels"
         bin.install "river-prompt"
         bin.install "show-riverlevels"
