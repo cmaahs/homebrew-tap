@@ -5,12 +5,12 @@ class UtilScripts < Formula
   desc "This is a collection of general utility scripts"
   homepage "https://github.com/cmaahs/homebrew-admin-scripts"
   url "https://github.com/cmaahs/homebrew-admin-scripts.git"
-  version "0.0.121"
+  version "0.0.122"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.121/homebrew-admin-scripts.tar.gz"
-      sha256 "fa0caf6107855a0aff98fd1cd8ae2e1d3af51dbc31825fb56738e27f3c37e7c0"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.122/homebrew-admin-scripts.tar.gz"
+      sha256 "a0572608b7572483e07fc144c0801b5bca5fa80cf0e21c186b83e100690b827a"
 
       def install
         bin.install "check-docker-tag"
@@ -82,8 +82,8 @@ class UtilScripts < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.121/homebrew-admin-scripts.tar.gz"
-      sha256 "fa0caf6107855a0aff98fd1cd8ae2e1d3af51dbc31825fb56738e27f3c37e7c0"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.122/homebrew-admin-scripts.tar.gz"
+      sha256 "a0572608b7572483e07fc144c0801b5bca5fa80cf0e21c186b83e100690b827a"
 
       def install
         bin.install "check-docker-tag"
@@ -158,8 +158,8 @@ class UtilScripts < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.121/homebrew-admin-scripts.tar.gz"
-      sha256 "fa0caf6107855a0aff98fd1cd8ae2e1d3af51dbc31825fb56738e27f3c37e7c0"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.122/homebrew-admin-scripts.tar.gz"
+      sha256 "a0572608b7572483e07fc144c0801b5bca5fa80cf0e21c186b83e100690b827a"
 
       def install
         bin.install "check-docker-tag"
@@ -230,8 +230,8 @@ class UtilScripts < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.121/homebrew-admin-scripts.tar.gz"
-      sha256 "fa0caf6107855a0aff98fd1cd8ae2e1d3af51dbc31825fb56738e27f3c37e7c0"
+      url "https://github.com/cmaahs/homebrew-admin-scripts/releases/download/v0.0.122/homebrew-admin-scripts.tar.gz"
+      sha256 "a0572608b7572483e07fc144c0801b5bca5fa80cf0e21c186b83e100690b827a"
 
       def install
         bin.install "check-docker-tag"
